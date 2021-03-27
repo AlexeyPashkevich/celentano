@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Celentano</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<a class="header__logo" href="index.html">
+							<img src="images/header-logo.png" alt="">
+						</a>
+						<button class="menu__btn">
+							<span class="menu__btn-row"></span>
+						</button>
+						<nav class="menu">
+							<ul class="menu-list">
+								<li class="menu-list__item">
+									<a class="menu-list__link" href="index.html">Головна</a>
+								</li>
+								<li class="menu-list__item menu-list__item--hover-menu">
+									<a class="menu-list__link" href="#">Меню</a>
+									<ul class="menu-hover">
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">ПІЦА</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">БУРГЕРИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">СНІДАНКИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">ЗАКУСКИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">ПАСТА</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">САЛАТИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">ГАРНІРИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">ДЕСЕРТИ</a>
+										</li>
+										<li class="menu-hover__item">
+											<a class="menu-hover__link" href="products.html">НАПОЇ</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-list__item">
+									<a class="menu-list__link" href="stocks.html">Акції</a>
+								</li>
+								<li class="menu-list__item">
+									<a class="menu-list__link" href="gallery.html">Фотогалерея</a>
+								</li>
+								<li class="menu-list__item">
+									<a class="menu-list__link" href="delivery.html">Доставка і оплата</a>
+								</li>
+								<li class="menu-list__item">
+									<a class="menu-list__link" href="contacts.html">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__info">
+							<a class="header__info-phone" href="tel:+380990008005">+38 (099) 000 800 5</a>
+							<a class="header__info-basket" href="#">
+								<img src="images/basket.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="product">
+				<div class="container">
+					<div class="product__inner">
+						<div class="product__box">
+							<div class="product__box-img">
+								<img src="images/product.jpg" alt="">
+							</div>
+							<div class="product__box-info">
+								<h2 class="product__title">Цезар</h2>
+								<div class="product__info-line">
+									<div class="product__price-wrpap">
+										<span class="price-word">Ціна:</span><span class="product__price" data-price="60"></span>
+									</div>
+									<div class="price__counter">
+										<div class="quantity">
+											<input class="price" type="number" min="1" max="16" step="1" value="1" data-product-price="60">
+										</div>
+									</div>
+									<a class="product__line-btn" href="products.html">в кошик</a>
+								</div>
+								<div class="tabs">
+									<a class="tab tab--active product__tab" href="#product-tab-1">25 см</a>
+									<a class="tab product__tab" href="#product-tab-2">30 см</a>
+								</div>
+								<div class="tabs__wrapper">
+									<div id="product-tab-1" class="tabs__content tabs__content--active">
+										<div class="product__tabs-content">
+											Пармезан, бекон, помідор, лист
+											салату, куряче філе,
+											яйце перепелине, фірмовий соус
+										</div>
+									</div>
+									<div id="product-tab-2" class="tabs__content">
+										<div class="product__tabs-content">
+											Помідор, пармезан, бекон, куряче філе, лист салату, фірмовий соус,яйце
+											перепелине
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="title"></div>
+						<div class="product__benefits">
+							<div class="product__benefits-item">
+								<img src="images/contacts-2.svg" alt="">
+								<p class="product__benefits-text">
+									Приймаємо замовлення ЩОДЕННО згідно з графіком роботи закладу
+								</p>
+							</div>
+							<div class="product__benefits-item">
+								<img src="images/coins.svg" alt="">
+								<p class="product__benefits-text">
+									Оплата при отриманні і тільки готівкою
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		</div>
+
+		<footer class="footer" style="background-image: url(images/footer-bg.jpg);">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__inner-column">
+						<a class="footer__logo" href="index.html">
+							<img src="images/footer-logo.png" alt="">
+						</a>
+						<div class="footer__copy">©Roüte 20, 1995-2021</div>
+					</div>
+					<div class="footer__inner-menu">
+						<h3 class="footer__menu-title">Меню</h3>
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="index.html">Головна</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="stocks.html">Акції</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="gallery.html">Фотогалерея</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="delivery.html">Доставка і оплата</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__inner-menu">
+						<h3 class="footer__menu-title">Контакти</h3>
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="products.html">Харків</a>
+							</li>
+							<li class="footer-list__item">
+								Кожен день з 9:00 до 20:00
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="tel:+380991115673">+38 (099) 111 567 3</a>
+							</li>
+							<li class="footer-list__item">
+								<a class="footer-list__link" href="tel:0400500516">0 400 500 516</a>
+								- горяча лінія
+							</li>
+						</ul>
+					</div>
+					<div class="footer__social">
+						<a class="footer__social-phone" href="#">ЗВОРОТНИЙ ДЗВІНОК</a>
+						<ul class="footer__social-list">
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="products.html">
+									<img src="images/instagram.svg" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="products.html">
+									<img src="images/vkontakte.svg" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="products.html">
+									<img src="images/facebook.svg" alt="">
+								</a>
+							</li>
+							<li class="footer__social-item">
+								<a class="footer__social-link" href="products.html">
+									<img src="images/youtube.svg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
